@@ -6,6 +6,6 @@ unzip apache-tomcat-9.0.87.zip
 mv apache-tomcat-9.0.87 /opt/tomcat
 chmod 755 -R /opt/tomcat 
 /opt/tomcat/bin/startup.sh
-wget https://updates.jenkins.io/download/war/2.397/jenkins.war/2
+wget https://updates.jenkins.io/download/war/2.397/jenkins.war
 cp jenkins.war /opt/tomcat/webapps
 yum install git -y
